@@ -104,3 +104,13 @@ footer{
     background-color:rgba(255, 255, 255, 0);
     border:none;
 }
+@media (min-width:501px){
+    .morea span{
+        display:none;
+    }
+}
+@media (max-width:500px){
+    .enlaces{
+        display:none;
+    }
+}
