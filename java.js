@@ -45,7 +45,20 @@ document.getElementById("boton3").addEventListener("click",mostrar3,true)
 document.getElementById("boton4").addEventListener("click",mostrar4,true)
 document.getElementById("boton5").addEventListener("click",mostrar5,true)
 
+let menuPrincipal=document.getElementById("menuPrincipal")
+    menuPrincipal.addEventListener("click",mostrarOcultar,true)
+function mostrarOcultar(){
+    let menuOculto=document.getElementById("navegador")
+    verificarDisplay=window.getComputedStyle(menuOculto).getPropertyValue("display")
+    if(verificarDisplay==="flex"){
+        menuOculto.style.display="none"
+    }
+    else{
+        menuOculto.style.display="flex"
+    }
+}
 
 
-    	
-    	
+
+
+    
