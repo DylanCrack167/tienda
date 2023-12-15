@@ -112,5 +112,8 @@ footer{
 @media (max-width:500px){
     .enlaces{
         display:none;
+        flex-direction:column;
+        flex-wrap:wrap;
     }
 }
+
